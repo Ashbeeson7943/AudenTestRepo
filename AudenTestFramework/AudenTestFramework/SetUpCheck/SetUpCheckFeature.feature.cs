@@ -73,11 +73,11 @@ namespace AudenTestFramework.SetUpCheck
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers", new string[] {
-                "mytag"}, SourceLine=6)]
+                "Setup"}, SourceLine=6)]
         public virtual void AddTwoNumbers()
         {
             string[] tagsOfScenario = new string[] {
-                    "mytag"};
+                    "Setup"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, tagsOfScenario, argumentsOfScenario);
 #line 7
@@ -117,11 +117,11 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Loading a browser", new string[] {
-                "mytag"}, SourceLine=13)]
+                "Setup"}, SourceLine=13)]
         public virtual void LoadingABrowser()
         {
             string[] tagsOfScenario = new string[] {
-                    "mytag"};
+                    "Setup"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Loading a browser", null, tagsOfScenario, argumentsOfScenario);
 #line 14
